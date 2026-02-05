@@ -6,8 +6,8 @@ A simple Flutter counter application demonstrating **BLoC (Business Logic Compon
 - Increment counter
 - Decrement counter
 - Reset counter
-- Snackbar messages on actions
-- Clean and scalable BLoC architecture
+- BLoC state management
+- Clean and scalable architecture
 
 ## 🧠 Concepts Used
 - BlocProvider
@@ -21,25 +21,14 @@ lib/
 ├── counter/
 │ ├── bloc.dart
 │ ├── event.dart
-│ └── state.dart
-├── home.dart
-└── main.dart
+│ ├── state.dart
+│ └── view.dart
+├── main.dart
+
 
 ## 🚀 Getting Started
-
-### Prerequisites
-- Flutter SDK
-- Dart
-- Android Studio or VS Code
 
 ### Run the app
 ```bash
 flutter pub get
 flutter run
-🛠 Tech Stack
-
-Flutter
-
-Dart
-
-flutter_bloc
