@@ -17,3 +17,18 @@ A simple Flutter counter application demonstrating **BLoC (Business Logic Compon
 - Immutable state
 
 ## 📂 Project Structure
+lib/
+├── counter/
+│ ├── bloc.dart
+│ ├── event.dart
+│ ├── state.dart
+│ └── view.dart
+├── main.dart
+
+
+## 🚀 Getting Started
+
+### Run the app
+```bash
+flutter pub get
+flutter run
